@@ -1,0 +1,169 @@
+(ExpressProject "A6321a-Eval"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[05/26/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\libraries\proj_spec.olb"
+        (Type "Schematic Library"))
+      (File ".\custom-spb-libs\libraires\connector.olb"
+        (Type "Schematic Library"))
+      (File ".\custom-spb-libs\libraires\c-mcuic.olb"
+        (Type "Schematic Library"))
+      (File ".\custom-spb-libs\libraires\ctrl.olb"
+        (Type "Schematic Library"))
+      (File ".\custom-spb-libs\libraires\analog.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\a6321a-eval.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    ("HEADER 1x2"
+      (FullPartName "HEADER 1x2.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 1x4"
+      (FullPartName "HEADER 1x4.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED-ARBTY-COL-SIZE
+      (FullPartName "LED-ARBTY-COL-SIZE.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RES-0402-?R-1%-1/16W
+      (FullPartName "RES-0402-?R-1%-1/16W.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (NPN-S8050-0.5A-J3Y
+      (FullPartName "NPN-S8050-0.5A-J3Y.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP-MLCC-0402-100nF-50V-10%-X7R
+      (FullPartName "CAP-MLCC-0402-100nF-50V-10%-X7R.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CH340E
+      (FullPartName "CH340E.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-MCUIC.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE-?V-?A-F?V-ARBTY
+      (FullPartName "DIODE-?V-?A-F?V-ARBTY.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SGM7227
+      (FullPartName "SGM7227.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL-3215-?Hz
+      (FullPartName "CRYSTAL-3215-?Hz.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE-SCHOTTKY-?V-?A-F?V-ARBTY
+      (FullPartName "DIODE-SCHOTTKY-?V-?A-F?V-ARBTY.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RES-0805-?R-1%-1/8W
+      (FullPartName "RES-0805-?R-1%-1/8W.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BUTTON_2435_SIDE
+      (FullPartName "BUTTON_2435_SIDE.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CTRL.OLB")
+      (DeviceIndex "0"))
+    ("BUTTON 2x2"
+      (FullPartName "BUTTON 2x2.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CTRL.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL-3225-?Hz
+      (FullPartName "CRYSTAL-3225-?Hz.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (JL-A6321A
+      (FullPartName "JL-A6321A.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-MCUIC.OLB")
+      (DeviceIndex "0"))
+    (USB-TYPEA-VERTICAL-SHORT
+      (FullPartName "USB-TYPEA-VERTICAL-SHORT.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TYPE-C_16_CON
+      (FullPartName "TYPE-C_16_CON.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\a6321a-eval.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1698"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 3191 24 1716")
+        (Scroll "-419 -12")
+        (Zoom "99")
+        (Occurrence "/"))
+      (Path "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\A6321A-EVAL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\moses\Desktop\A6321a-Eval\custom-spb-libs\libraires")
+  (MPSSessionName "moses"))

@@ -1,6 +1,6 @@
 (ExpressProject "A6321a-Eval"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[05/27/24]")
+  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[05/28/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -16,16 +16,36 @@
         (Type "Schematic Library"))
       (File ".\custom-spb-libs\libraires\c-asic(misc).olb"
         (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "..\a6321a-eval")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
     (File ".\a6321a-eval.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Output Board File" ".\a6321a-eval.brd"))
+  (Folder "Layout"
+    (File ".\custom-spb-libs\libraires\a6321a-eval.brd"
+      (Type "Board File")
+      (OutputBoard ".\custom-spb-libs\libraires\a6321a-eval.brd")
+      (NetListPath "..\a6321a-eval")
+      (ActiveBoard "0"))
+    (File ".\a6321a-eval.brd"
+      (Type "Board File")
+      (OutputBoard ".\a6321a-eval.brd")
+      (NetListPath "..\a6321a-eval")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -35,8 +55,30 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
+  (Folder "Logs"
+    (File ".\netlist.log"
+      (Type "Log File")
+      (LogFile "c:\users\moses\desktop\a6321a-eval\netlist.log"))
+    (File ".\netrev.lst"
+      (Type "Log File")
+      (LogFile "c:\users\moses\desktop\a6321a-eval\netrev.lst"))
+    (File ".\eco.txt"
+      (Type "Log File")
+      (LogFile "c:\users\moses\desktop\a6321a-eval\eco.txt"))
+    (File ".\genfeed.log"
+      (Type "Log File")
+      (LogFile "c:\users\moses\desktop\a6321a-eval\genfeed.log")))
   (PartMRUSelector
+    ("HEADER 2x8"
+      (FullPartName "HEADER 2x8.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CAP-MLCC-0402-100nF-50V-10%-X7R
+      (FullPartName "CAP-MLCC-0402-100nF-50V-10%-X7R.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
     (SW-SELFLOCK
       (FullPartName "SW-SELFLOCK.Normal")
       (LibraryName
@@ -44,11 +86,6 @@
       (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CAP-MLCC-0402-100nF-50V-10%-X7R
-      (FullPartName "CAP-MLCC-0402-100nF-50V-10%-X7R.Normal")
-      (LibraryName
-         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
       (DeviceIndex "0"))
     (IPEX_3PIN
       (FullPartName "IPEX_3PIN.Normal")
@@ -149,29 +186,28 @@
       (FullPartName "RES-0805-?R-1%-1/8W.Normal")
       (LibraryName
          "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BUTTON_2435_SIDE
-      (FullPartName "BUTTON_2435_SIDE.Normal")
-      (LibraryName
-         "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\CUSTOM-SPB-LIBS\LIBRAIRES\CTRL.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\a6321a-eval.dsn"))
+      (Path "Design Resources" ".\a6321a-eval.dsn")
+      (Path "Design Resources" ".\a6321a-eval.dsn" "SCHEMATIC1")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\a6321a-eval.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1696"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 285 0 1690"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 3191 24 1714")
-        (Scroll "-174 326")
-        (Zoom "120")
+        (Placement "44 0 1 -1 -1 5 24 5 1180 24 1708")
+        (Scroll "561 -16")
+        (Zoom "98")
         (Occurrence "/"))
       (Path "C:\USERS\MOSES\DESKTOP\A6321A-EVAL\A6321A-EVAL.DSN")
       (Schematic "SCHEMATIC1")

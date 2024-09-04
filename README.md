@@ -1,1 +1,1 @@
-![plot](./img/pcba_demos.png)
+![plot](./img/pcba_demos.jpg)
